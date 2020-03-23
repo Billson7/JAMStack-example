@@ -8,10 +8,10 @@ const listRepos = async username => {
   const markup = repos
     .map(
       repo => `
-      <li>
-        <a href = "${repo.html_URL}">${repo.name}</a>
-        (⭐️${repo.stargazers_count})
-      </li>
+        <li>
+          <a href="${repo.html_url}">${repo.name}</a>
+          (⭐️ ${repo.stargazers_count})
+        </li>
       `
     )
     .join("");
