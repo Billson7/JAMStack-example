@@ -1,0 +1,16 @@
+{
+  "name": "JAMStack-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Billson7/JAMStack-example.git",
+  "author": "Billson7 <alex.billson@sky.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.20.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "develop": "gatsby develop"
+  }
+}
